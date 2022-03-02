@@ -1,24 +1,38 @@
 [
   {
     "name": "Locations",
-    "id": "1",
+    "id": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
     "icon": { "code": "fas fa-map-marker-alt", "name": "address-book" }
   },
   {
     "name": "Zones",
-    "id": "2",
+    "id": "2c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d",
     "icon": { "code": "fas fa-globe-americas", "name": "address-book" }
   },
   {
-    "id": "3",
+    "id": "710b962e-041c-11e1-9234-0123456789ab",
     "name": "Seat/Room",
     "icon": { "code": "fas fa-building", "name": "address-book" }
   },
   {
     "name": "sample",
     "icon": { "code": "fas fa-address-book", "name": "address-book" },
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
     "props": [
       { "name": "ddd", "isUnique": true, "type": "String", "complexType": null }
     ]
+  },
+  {
+    "name": "sample",
+    "icon": { "code": "fas fa-address-book", "name": "address-book" },
+    "props": [
+      {
+        "name": "prop1",
+        "isUnique": true,
+        "type": "String",
+        "complexType": null
+      }
+    ],
+    "id": "607cfd64-dd62-462d-8afb-ff5084139963"
   }
 ]
