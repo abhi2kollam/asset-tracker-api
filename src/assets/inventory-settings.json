@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Locations",
+    "id": "1",
+    "icon": { "code": "fas fa-map-marker-alt", "name": "address-book" }
+  },
+  {
+    "name": "Zones",
+    "id": "2",
+    "icon": { "code": "fas fa-globe-americas", "name": "address-book" }
+  },
+  {
+    "id": "3",
+    "name": "Seat/Room",
+    "icon": { "code": "fas fa-building", "name": "address-book" }
+  },
+  {
+    "name": "sample",
+    "icon": { "code": "fas fa-address-book", "name": "address-book" },
+    "props": [
+      { "name": "ddd", "isUnique": true, "type": "String", "complexType": null }
+    ]
+  }
+]
