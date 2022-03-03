@@ -7,9 +7,14 @@ export class StoreService {
 
     #STORE_PATH = `${process.cwd()}\\src\\assets\\`;
     #INVENTORY_SETTINGS_PATH = this.#STORE_PATH + 'inventory-settings.json';
+    #INVENTORY_SETTINGS_LIST_PATH = this.#STORE_PATH + 'settings-list.json';
 
     readInventorySettings() {
         return this._readDataFromFile(this.#INVENTORY_SETTINGS_PATH);
+    }
+
+    readInventorySettingsList() {
+        return this._readDataFromFile(this.#INVENTORY_SETTINGS_LIST_PATH);
     }
 
     writeApplicationStore(data): boolean {

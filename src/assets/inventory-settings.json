@@ -1,38 +1,47 @@
 [
   {
-    "name": "Locations",
-    "id": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
-    "icon": { "code": "fas fa-map-marker-alt", "name": "address-book" }
-  },
-  {
-    "name": "Zones",
-    "id": "2c5ea4c0-4067-11e9-8bad-9b1deb4d3b7d",
-    "icon": { "code": "fas fa-globe-americas", "name": "address-book" }
-  },
-  {
-    "id": "710b962e-041c-11e1-9234-0123456789ab",
-    "name": "Seat/Room",
-    "icon": { "code": "fas fa-building", "name": "address-book" }
-  },
-  {
-    "name": "sample",
-    "icon": { "code": "fas fa-address-book", "name": "address-book" },
-    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
-    "props": [
-      { "name": "ddd", "isUnique": true, "type": "String", "complexType": null }
-    ]
-  },
-  {
-    "name": "sample",
-    "icon": { "code": "fas fa-address-book", "name": "address-book" },
+    "name": "Zone",
+    "icon": { "code": "fas fa-map-marker-alt", "name": "map-marker-alt" },
     "props": [
       {
-        "name": "prop1",
+        "name": "Name",
         "isUnique": true,
         "type": "String",
         "complexType": null
       }
     ],
-    "id": "607cfd64-dd62-462d-8afb-ff5084139963"
+    "id": "c1c3ca05-1a32-4dca-9851-9f0e72402435"
+  },
+  {
+    "name": "Locations",
+    "icon": { "code": "fas fa-globe", "name": "globe" },
+    "props": [
+      {
+        "name": "Name",
+        "isUnique": true,
+        "type": "String",
+        "complexType": null
+      },
+      {
+        "name": "Zone",
+        "isUnique": false,
+        "type": "Complex",
+        "complexType": "c1c3ca05-1a32-4dca-9851-9f0e72402435"
+      }
+    ],
+    "id": "a4c1707f-4c27-49bb-8b06-3577e43e7704"
+  },
+  {
+    "name": "Asset Status",
+    "icon": { "code": "fas fa-file", "name": "file" },
+    "props": [
+      {
+        "name": "Name",
+        "isUnique": true,
+        "type": "String",
+        "complexType": null
+      }
+    ],
+    "id": "d4f02a63-22c0-4c7b-a7be-8df31b76c121"
   }
 ]
